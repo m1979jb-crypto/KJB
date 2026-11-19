@@ -52,7 +52,7 @@ class NotifyWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx
         val n = NotificationCompat.Builder(ctx, CHANNEL)
             .setSmallIcon(R.drawable.ic_stat)
             .setContentTitle(title).setContentText(text)
-            .setColor(0xFF5B5BF7.toInt())
+            .setColor(0xFF3182F6.toInt())
             .setContentIntent(pi).setAutoCancel(true)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .build()

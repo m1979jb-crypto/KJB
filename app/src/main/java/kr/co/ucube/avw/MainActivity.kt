@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
         }
         web.setDownloadListener { url, ua, disposition, mime, _ -> download(url, ua, disposition, mime) }
 
-        swipe.setColorSchemeColors(0xFF5B5BF7.toInt(), 0xFF8B5CF6.toInt())
+        swipe.setColorSchemeColors(0xFF3182F6.toInt(), 0xFF1B64DA.toInt())
         swipe.setOnChildScrollUpCallback { _, _ -> !atTop }
         swipe.setOnRefreshListener { web.reload() }
 

@@ -10,7 +10,7 @@ android {
         applicationId = "kr.co.ucube.avw"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "2.0.0"
     }
     signingConfigs {
